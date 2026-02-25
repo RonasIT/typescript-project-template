@@ -2,6 +2,15 @@
 
 A template project for repos with TypeScript NPM packages.
 
+## What's included
+
+- **Repo structure**: `src/` for source, `dist/` as build output; `.github/workflows/`, `.husky/`, and config files (tsconfig, tsup, ESLint, Prettier) in place.
+- **Build**: TypeScript with [tsup](https://tsup.egoist.dev/) — CJS + ESM output and `.d.ts` from `src/index.ts`.
+- **Lint & format**: ESLint (flat config) and Prettier; `npm run lint`, `npm run format`.
+- **Git hooks**: Husky + lint-staged — ESLint and Prettier on pre-commit.
+- **CI**: GitHub Actions — validate (lint, test, build) on PR/push; release workflow publishes to npm on GitHub release (uses `NPM_TOKEN`).
+- **Basic docs**: [CONTRIBUTING.md](./CONTRIBUTING.md) and [LICENSE](./LICENSE).
+
 ## How to use this template for npm packages
 
 1. Create a new repo from this template (e.g. via GitHub “Use this template”).
