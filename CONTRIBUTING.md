@@ -35,7 +35,6 @@ Repository has pre-commit code style and correctness checks. You can run them ma
 To create a new release:
 
 1. **Bump the version**: Run `npm version {patch|minor|major}` to update the version number in `package.json` and create a Git commit and tag
-
    - `patch`: Bug fixes (0.2.0 → 0.2.1)
    - `minor`: New features (0.2.0 → 0.3.0)
    - `major`: Breaking changes (0.2.0 → 1.0.0)
@@ -47,7 +46,6 @@ To create a new release:
    ```
 
 3. **Create GitHub release**: Go to the [GitHub Releases](../../releases) page and:
-
    - Click "Create a new release"
    - Select the tag created in step 1
    - Add release notes describing the changes
