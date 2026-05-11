@@ -11,7 +11,7 @@ This document provides guidelines for contributing to this project.
 
 1. **Create a feature branch** from `main`
 2. **Make your changes** following the [coding standards](#coding-standards)
-3. **Test your changes** thoroughly
+3. **Test your changes** thoroughly. You can use [Yalc](https://github.com/wclr/yalc) or [Verdaccio](https://verdaccio.org/) to consume the package from another project without publishing to npm
 4. **Update documentation** if needed
 5. **Run code checks**: `lint` and `test` (if available)
 6. **Submit a pull request** with a clear description
